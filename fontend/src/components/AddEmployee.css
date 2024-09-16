@@ -1,0 +1,47 @@
+.add-employee #error{
+    color: red;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+.add-employee h1{
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    color: #081C3B;
+}
+
+.btn button {
+    width: 100%;
+    height: 60px;
+    border-radius: 12px;
+    border:none;
+    background: #002F91;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.add-employee form{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    gap:10px;
+}
+
+.add-employee{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 376px;
+    gap:10px;
+}
+
+.register p{
+    text-align: center;
+    padding: 0;
+}

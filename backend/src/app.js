@@ -12,7 +12,7 @@ app.use(express.static('public'));
 import employee from './employee.route.js';
 
 //declaration
-app.use("/api/v1/employee", employee);
+app.use("/employee", employee);
 
 connectDB()
 .then(()=>{
