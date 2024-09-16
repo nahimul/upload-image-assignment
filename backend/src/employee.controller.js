@@ -31,7 +31,6 @@ const addEmployee = async (req, res) => {
 //Update employee
 const editEmployee= async (req,res,next)=>{
     const{email,phone,dob,name} =req.body;
-    console.log(req.body);
     const employee = await Employee.findOne({   $or:[{email}] });    
     if (!employee) return res.status(404).json({ message: 'Employee not found!' });
     else{
